@@ -13,3 +13,6 @@ Finally, we start our server with npm run devstart.
 It keeps an eye on our code and restarts the server whenever we make changes.
 Easy, right?
 4. npm run devstart
+
+
+NOTE: make sure to dowload mongodb and connect it.
