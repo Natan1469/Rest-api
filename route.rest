@@ -1,0 +1,36 @@
+# 1. GET request to fetch all testroutes
+
+GET http://localhost:3000/testroutes
+
+
+###
+# 2. GET request to fetch a specific testroute by ID
+
+GET http://localhost:3000/testroutes/65c48c1beaab9ee5d2b8ea17
+
+###
+# 3. POST request to create a new testroute
+
+POST http://localhost:3000/testroutes
+Content-Type: application/json
+
+{
+    "name": "Natan shrestha", 
+    "email":"Natan@gmail.com"
+}
+
+
+###
+
+# 4. DELETE request to delete a specific testroute by ID
+DELETE http://localhost:3000/testroutes/65c4991df9ceb3bb76149986
+
+###
+
+# 5. PATCH request to update a specific testroute by ID
+PATCH  http://localhost:3000/testroutes/65c48c1beaab9ee5d2b8ea17
+Content-Type: application/json
+
+{
+    "name": "Shrestha Natan"
+}
